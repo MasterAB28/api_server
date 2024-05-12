@@ -15,7 +15,7 @@ DB_NAME = os.getenv("DB_NAME")
 COLLECTION_NAME = 'items'
 
 # Connect to MongoDB
-client = MongoClient(MONGO_URI)
+client = MongoClient(MONGO_URI, authSource=DB_NAME)
 db = client[DB_NAME]
 collection = db[COLLECTION_NAME]
 
