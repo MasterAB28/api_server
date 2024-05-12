@@ -6,7 +6,7 @@ replicaCount: 3
 app: api
 image:
   repository: aviadbarel/orders_api
-  pullPolicy: IfNotPresent
+  pullPolicy: always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
 namespace: app
