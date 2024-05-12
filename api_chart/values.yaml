@@ -9,7 +9,7 @@ image:
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
-namespace: api
+namespace: app
 deployment: api-deployment
 maxSurge: 25%
 maxUnavailable: 1
