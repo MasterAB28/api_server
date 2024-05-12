@@ -1,0 +1,3 @@
+Flask==3.0.3
+kafka_python==2.0.2
+pymongo==4.7.1
